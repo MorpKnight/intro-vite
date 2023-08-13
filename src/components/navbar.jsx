@@ -1,6 +1,6 @@
 import Typewriter from  'typewriter-effect';
 
-function App(){
+function NavBar(){
     const sectionEffect = 'text-white hover:text-stone-500';
 
     return (
@@ -16,12 +16,12 @@ function App(){
                 } className='text-white text-xl font-bold'/>
             </div>
             <div className='flex space-x-10'>
-                <a href='#' className={sectionEffect}>About</a>
-                <a href='#' className={sectionEffect}>Projects</a>
-                <a href='#' className={sectionEffect}>Contact</a>
+                <a href='#' className={sectionClass}>About</a>
+                <a href='#' className={sectionClass}>Projects</a>
+                <a href='#' className={sectionClass}>Contact</a>
             </div>
         </nav>
     )
 }
 
-export default App;
+export default NavBar;
