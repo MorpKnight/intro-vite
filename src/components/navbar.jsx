@@ -16,9 +16,9 @@ function NavBar(){
                 } className='text-white text-xl font-bold'/>
             </div>
             <div className='flex space-x-10'>
-                <a href='#' className={sectionClass}>About</a>
-                <a href='#' className={sectionClass}>Projects</a>
-                <a href='#' className={sectionClass}>Contact</a>
+                <a href='#' className={sectionEffect}>About</a>
+                <a href='#' className={sectionEffect}>Projects</a>
+                <a href='#' className={sectionEffect}>Contact</a>
             </div>
         </nav>
     )
