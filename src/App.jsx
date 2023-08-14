@@ -1,9 +1,10 @@
-import NavBar from "./components/Navbar"
+import NavBar from "./components/Navbar";
+import NavBarV2 from "./components/Navbar_V2";
 
 function App(){
   return (
-    <div className='bg-blue-200'>
-      <NavBar />
+    <div>
+      <NavBarV2 />
     </div>
   )
 }
