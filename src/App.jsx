@@ -1,10 +1,11 @@
-import NavBar from "./components/Navbar";
-import NavBarV2 from "./components/Navbar_V2";
+import NavBar from "./components/pages/header/navbar";
+import About from "./components/pages/body/about";
+import NavBar_v3 from "./components/pages/header/navbar_v3";
 
 function App(){
   return (
     <div>
-      <NavBarV2 />
+      <NavBar_v3 />
     </div>
   )
 }
